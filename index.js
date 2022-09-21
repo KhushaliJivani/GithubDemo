@@ -7,6 +7,7 @@ app.get('/data',async(req,res)=>{
 
     res.send('request...............................',req)     
     console.log("chnages to merge a branch") 
+    console.log("commit..................")
 })
 
 app.listen(port,()=>{
